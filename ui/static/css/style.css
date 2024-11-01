@@ -1,0 +1,96 @@
+
+
+/* Books Page */
+/* *************************************************************** */
+.books{
+    padding: 5rem 0rem;    
+}
+.books .heading{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.books .heading p{
+    color: #75DAB4;
+    font-weight: 300;
+    font-size: 1.063rem;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.books .heading p span{
+    font-size: 9rem;
+    position: absolute;
+    left: 32%;
+    top: -3.125rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 0 3px #000000;
+    opacity: 0.15;
+    z-index: -1;
+}
+.books .heading h2{
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.books .content{
+    text-align: center;
+}
+.books .content p{
+    line-height: 1.5rem;
+    padding: 2rem 0rem 1rem;
+    font-size: 1.125rem;
+    text-align: center;
+    word-spacing: 5px;
+    color: var(--text-color);
+}
+.books h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    margin: 2rem 0rem 1rem;
+}
+
+.books .book-box{
+    box-shadow: var(--skill-box-shadow);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    min-height: 34rem;
+    max-width: 18rem;
+    background-color: #fff;
+}
+
+.books .book-box .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.books .book-box .image img{
+    border-radius: 1rem;
+    max-height: 20rem;
+}
+
+.books .book-box .title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 1rem 0 0;
+    color: #3e3e3e;
+}
+
+.books .book-box .author{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0 0 0.75rem;
+    color: #434343;
+}
+
+.books .book-box .review{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #111;
+}
+
+/* *************************************************************** */
